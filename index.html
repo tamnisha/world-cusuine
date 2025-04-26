@@ -7,41 +7,65 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
   <style>
     body {
-      background-color: #fdfaf6;
+      background-color: #f8f5f0;
       color: #333;
       font-family: 'Georgia', serif;
     }
     header {
-      background-color: #8d6748;
+      background-color: #7a5c3e;
       color: white;
-      padding: 60px 20px;
+      padding: 70px 20px;
       text-align: center;
+      position: relative;
+    }
+    .header-img {
+      width: 70%;
+      height: auto;
+      max-height: 250px;
+      object-fit: cover;
+      border-bottom: 5px solid white;
+      margin-top: 20px;
+      border-radius: 15px;
     }
     .feature-card {
-      background-color: #f0e7df;
-      border-radius: 12px;
-      padding: 20px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      background-color: #efe6dc;
+      border-radius: 15px;
+      padding: 25px;
+      box-shadow: 0 6px 14px rgba(0,0,0,0.15);
     }
     footer {
-      background-color: #3c3c3c;
+      background-color: #2e2e2e;
       color: white;
       text-align: center;
-      padding: 20px;
+      padding: 25px;
     }
     .navbar-nav a {
       font-weight: bold;
-      margin-right: 15px;
+      margin-right: 20px;
     }
     h2 {
       font-weight: 600;
+    }
+    .food-img {
+      width: 100%;
+      height: auto;
+      border-radius: 20px;
+      margin-top: 25px;
+    }
+    .food-img-small {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 15px;
+      margin-top: 20px;
     }
   </style>
 </head>
 <body>
   <header>
     <h1>World Plate</h1>
-    <p class="lead">An elite dining experience—explore the world, one luxurious plate at a time.</p>
+    <p class="lead">Taste the finest from around the world—crafted just for you.</p>
+    <img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80" alt="Luxury World Dishes" class="header-img">
   </header>
 
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -51,7 +75,7 @@
         <ul class="navbar-nav ms-auto">
           <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
           <li class="nav-item"><a class="nav-link" href="#how-it-works">How It Works</a></li>
-          <li class="nav-item"><a class="nav-link" href="#menu">Sample Menu</a></li>
+          <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
           <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
         </ul>
       </div>
@@ -59,22 +83,21 @@
   </nav>
 
   <section id="about" class="container my-5">
-    <h2 class="text-center">What is World Plate?</h2>
+    <h2 class="text-center">Discover World Plate</h2>
     <p class="text-center">
-      Curated by world-class chefs and cultural culinary experts, World Plate guarantees a dining experience of the highest quality and authenticity.<br>
-      Studies show that experiencing diverse cuisines not only enhances palate sophistication but also deepens cultural appreciation—our rotating five-day menu ensures both.<br>
-      Imagine the warmth of an Italian kitchen, the elegance of a Parisian café, and the spice of a Moroccan bazaar—all crafted to create unforgettable evenings that touch the heart.<br>
-      In a fast-paced world, now is the perfect moment to slow down and savor global excellence from the comfort of a refined setting.
+      Where luxury meets tradition. Our chefs, masters from award-winning kitchens worldwide, craft each dish with care and passion.
+      Embark on a journey across the finest kitchens of the world—brought to your table with style, excellence, and timeless charm.
     </p>
   </section>
 
-  <section class="container my-5 text-center p-5 rounded" style="background-color: #f5f5f5;">
-    <h2 class="mb-4" style="font-size: 2rem; color: #3c3c3c;">A Curated Culinary Journey</h2>
+  <section class="container my-5 text-center p-5 rounded" style="background-color: #f3f3f3;">
+    <h2 class="mb-4" style="font-size: 2rem; color: #3c3c3c;">Your Personalized Culinary Journey</h2>
     <p style="font-size: 1.25rem; color: #4a4a4a; line-height: 1.8;">
-      Begin your evening with an exquisite Chinese entrée, followed by a delicate French dessert, and a side dish infused with the vibrant flavors of the Hawaiian islands.
+      Begin with an elegant Chinese main dish, savor a French dessert kissed with sweetness, and accompany it all with vibrant Hawaiian side creations.
       <br><br>
-      <em>At World Plate, every element of your meal is hand-selected—crafted to reflect your refined tastes and love for global cuisine.</em>
+      Every plate is hand-selected to match the season and your mood, making each evening unforgettable.
     </p>
+    <img src="https://img.freepik.com/free-photo/top-view-table-full-delicious-food-composition_23-2149141349.jpg" alt="Fine Dining Experience" class="food-img">
   </section>
 
   <section id="how-it-works" class="container my-5">
@@ -82,46 +105,60 @@
     <div class="row text-center mt-4">
       <div class="col-md-4 mb-3">
         <div class="feature-card">
-          <h4>Choose Countries</h4>
-          <p>Select five exquisite cuisines to build your custom journey.</p>
+          <h4>Curate Your Menu</h4>
+          <p>Select dishes from the most renowned cultures around the globe—crafted to your taste.</p>
         </div>
       </div>
       <div class="col-md-4 mb-3">
         <div class="feature-card">
-          <h4>Design Your Week</h4>
-          <p>Choose your preferred dining days and seating arrangements.</p>
+          <h4>Plan Your Experience</h4>
+          <p>Customize your seven-day journey with personalized attention to every detail.</p>
         </div>
       </div>
       <div class="col-md-4 mb-3">
         <div class="feature-card">
-          <h4>Indulge in Elegance</h4>
-          <p>Each meal is served in a setting inspired by its country of origin.</p>
+          <h4>Celebrate the Flavor</h4>
+          <p>Enjoy the perfect atmosphere inspired by the world's grandest traditions.</p>
         </div>
       </div>
     </div>
   </section>
 
   <section id="menu" class="container my-5">
-    <h2 class="text-center">Sample Weekly Menu</h2>
+    <h2 class="text-center">Sample Menu</h2>
     <ul class="list-group list-group-flush text-center mt-3">
-      <li class="list-group-item"><strong>Appetizers</strong> - Greek Dolmas, Japanese Edamame, Spanish Patatas Bravas</li>
-      <li class="list-group-item"><strong>Main Courses</strong> - Italian Truffle Risotto, Indian Butter Chicken, Moroccan Lamb Tagine</li>
-      <li class="list-group-item"><strong>Sides</strong> - Hawaiian Lomi Salmon, French Ratatouille, Korean Kimchi</li>
-      <li class="list-group-item"><strong>Desserts</strong> - French Crème Brûlée, Turkish Baklava, Argentinian Dulce de Leche Flan</li>
-      <li class="list-group-item"><strong>Beverages</strong> - South African Rooibos Tea, Brazilian Guaraná, Indian Masala Chai</li>
+      <li class="list-group-item"><strong>Appetizers</strong> - Italian Burrata, Japanese Tuna Tartare, Lebanese Hummus Trio</li>
+      <li class="list-group-item"><strong>Main Courses</strong> - French Duck Confit, Thai Lobster Curry, Argentinian Wagyu Steak</li>
+      <li class="list-group-item"><strong>Sides</strong> - Hawaiian Macadamia Rice, French Haricot Verts, Spanish Croquetas</li>
+      <li class="list-group-item"><strong>Desserts</strong> - Belgian Chocolate Fondant, Japanese Mochi Selection, French Mille-Feuille</li>
+      <li class="list-group-item"><strong>Beverages</strong> - Italian Prosecco, Moroccan Mint Tea, Argentine Malbec</li>
     </ul>
+    <div class="row mt-4">
+      <div class="col-md-6">
+        <img src="https://gourmetbangkok.com/wp-content/uploads/2018/10/Marriott-Surawongse-Sunday-brunch-17R.jpg" alt="Elegant Main Course" class="food-img-small">
+      </div>
+      <div class="col-md-6">
+        <img src="https://sweetsimplevegan.com/wp-content/uploads/2023/10/fondant_potatoes_recipe_sweetsimplevegan_17-1200x800.jpg" alt="Elegant Side Dish" class="food-img-small">
+      </div>
+      <div class="col-md-6">
+        <img src="https://www.lacademie.com/wp-content/uploads/2021/08/tasty-hawaiian-desserts.jpg" alt="Luxury Dessert" class="food-img-small">
+      </div>
+      <div class="col-md-6">
+        <img src="https://www.liquor.com/thmb/ATKn5ab1FPlJsIXAxOYdRa5ErnA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/white-sangria-720x720-primary-84b837e409b34e43a092e16a48d715ef.jpg" alt="Luxury Drinks" class="food-img-small">
+      </div>
+    </div>
   </section>
 
   <section id="contact" class="bg-dark text-white py-5">
     <div class="container text-center">
-      <h2>Reserve Your Experience</h2>
-      <p class="lead">Contact us or scan the QR code below to begin your World Plate journey.</p>
-      <p>Email: concierge@worldplate.com</p>
+      <h2>Reserve Your Private Experience</h2>
+      <p class="lead">Luxury has a taste—and it is waiting for you. Secure your table today.</p>
+      <p>Email: @worldplate.com</p>
     </div>
   </section>
 
   <footer>
-    <p>&copy; 2025 World Plate. Exclusively yours.</p>
+    <p>&copy; 2025 World Plate. Excellence on every plate.</p>
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
