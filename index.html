@@ -124,7 +124,32 @@
     </div>
   </section>
 
-<section id="vote-reserve" class="bg-light py-5">
+    <section id="menu" class="container my-5">
+    <h2 class="text-center">Sample Menu</h2>
+    <ul class="list-group list-group-flush text-center mt-3">
+      <li class="list-group-item"><strong>Appetizers</strong> - Italian Burrata, Japanese Tuna Tartare, Lebanese Hummus Trio</li>
+      <li class="list-group-item"><strong>Main Courses</strong> - French Duck Confit, Thai Lobster Curry, Argentinian Wagyu Steak</li>
+      <li class="list-group-item"><strong>Sides</strong> - Hawaiian Macadamia Rice, French Haricot Verts, Spanish Croquetas</li>
+      <li class="list-group-item"><strong>Desserts</strong> - Belgian Chocolate Fondant, Japanese Mochi Selection, French Mille-Feuille</li>
+      <li class="list-group-item"><strong>Beverages</strong> - Italian Prosecco, Moroccan Mint Tea, Argentine Malbec</li>
+    </ul>
+    <div class="row mt-4">
+      <div class="col-md-6">
+        <img src="https://gourmetbangkok.com/wp-content/uploads/2018/10/Marriott-Surawongse-Sunday-brunch-17R.jpg" alt="Elegant Main Course" class="food-img-small">
+      </div>
+      <div class="col-md-6">
+        <img src="https://sweetsimplevegan.com/wp-content/uploads/2023/10/fondant_potatoes_recipe_sweetsimplevegan_17-1200x800.jpg" alt="Elegant Side Dish" class="food-img-small">
+      </div>
+      <div class="col-md-6">
+        <img src="https://www.lacademie.com/wp-content/uploads/2021/08/tasty-hawaiian-desserts.jpg" alt="Luxury Dessert" class="food-img-small">
+      </div>
+      <div class="col-md-6">
+        <img src="https://www.liquor.com/thmb/ATKn5ab1FPlJsIXAxOYdRa5ErnA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/white-sangria-720x720-primary-84b837e409b34e43a092e16a48d715ef.jpg" alt="Luxury Drinks" class="food-img-small">
+      </div>
+    </div>
+  </section>
+
+  <section id="vote-reserve" class="bg-light py-5">
   <div class="container">
     <div class="row text-center">
       
@@ -144,6 +169,10 @@
           <div class="mb-3">
             <input type="tel" class="form-control" placeholder="Phone Number" required>
           </div>
+          <label for="date">Reservation Date:</label>
+          <input type="date" id="date" name="date" required><br><br>
+          <label for="time">Reservation Time:</label>
+          <input type="time" id="time" name="time" required><br><br>
           <div class="mb-3">
             <textarea class="form-control" rows="4" placeholder="Tell us about your dream culinary journey..." required></textarea>
           </div>
@@ -167,6 +196,9 @@
               <option value="Morocco">Morocco</option>
               <option value="Brazil">Brazil</option>
               <option value="Thailand">Thailand</option>
+              <option value="South Africa">South Africa</option>
+              <option value="India">India</option>
+              <option value="Mexico">Mexico</option>
             </select>
           </div>
           <button type="submit" class="btn btn-outline-dark btn-lg" style="padding: 10px 40px; border-radius: 30px;">Cast Your Vote</button>
